@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" data-i18n-attr-content="meta.description" content="Portafolio de desarrollador front-end mostrando proyectos y habilidades">
+  <title data-i18n="meta.title">Andres Osorio | Desarrollador Front-End</title>
+  <link rel="icon" href="photo_2025-11-07_23-30-28.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="header" role="banner">
+    <nav class="nav container" role="navigation" aria-label="Main navigation">
+      <a href="#hero" class="logo">AO</a>
+      <button class="hamburger" aria-label="Abrir menú de navegación" aria-expanded="false" data-i18n-attr-aria-label="nav.hamburger">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" role="menubar">
+        <li role="none"><a href="#about" role="menuitem" class="nav-link" data-i18n="nav.about">Sobre mí</a></li>
+        <li role="none"><a href="#skills" role="menuitem" class="nav-link" data-i18n="nav.skills">Habilidades</a></li>
+        <li role="none"><a href="#projects" role="menuitem" class="nav-link" data-i18n="nav.projects">Proyectos</a></li>
+        <li role="none"><a href="#contact" role="menuitem" class="nav-link" data-i18n="nav.contact">Contacto</a></li>
+        <li role="none"><a href="#" class="nav-link lang-link" data-lang="es">ES</a></li>
+        <li role="none"><a href="#" class="nav-link lang-link" data-lang="en">EN</a></li>
+      </ul>
+      <button class="theme-toggle" aria-label="Cambiar modo oscuro/claro" data-i18n-attr-aria-label="theme.aria">
+        <i class="fas fa-moon"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section">
+      <div class="container hero-content">
+        <div class="hero-text reveal">
+          <p class="hero-greeting" data-i18n="hero.greeting">Hola, soy</p>
+          <h1 class="hero-name">Andres Osorio</h1>
+          <h2 class="hero-title" data-i18n="hero.title">Desarrollador Front-End</h2>
+          <p class="hero-tagline" data-i18n="hero.tagline">
+            Creo experiencias web responsivas, accesibles y de alto rendimiento
+            con código limpio y diseño cuidadoso.
+          </p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary" data-i18n="hero.cta.contact">Contáctame</a>
+            <a href="#projects" class="btn btn-secondary" data-i18n="hero.cta.work">Ver Mi Trabajo</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-code-snippet">
+            <pre><code><span class="kw">const</span> developer = {
+  name: <span class="str">"Andres Osorio"</span>,
+  role: <span class="str">"Front-End Dev"</span>,
+  superpower: <span class="str" data-i18n="hero.superpower">"UI a Código"</span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container">
+        <h2 class="section-title reveal" data-i18n="about.title">Sobre Mí</h2>
+        <div class="about-content">
+          <div class="about-image reveal">
+            <div class="about-img-placeholder">
+              <img src="photo_2025-09-17_21-16-26.jpg" alt="" loading="lazy">
+            </div>
+          </div>
+          <div class="about-text reveal">
+            <p data-i18n="about.p1">
+              Soy un desarrollador front-end apasionado por construir interfaces
+              web hermosas y funcionales. Me especializo en convertir problemas
+              complejos en diseños simples e intuitivos.
+            </p>
+            <p data-i18n="about.p2">
+              Con experiencia en JavaScript moderno, CSS responsivo y
+              arquitectura basada en componentes, hago realidad las ideas en el navegador.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight">
+                <span class="highlight-number">6+</span>
+                <span class="highlight-label" data-i18n="about.highlight1">Meses de Experiencia</span>
+              </div>
+              <div class="highlight">
+                <span class="highlight-number">5+</span>
+                <span class="highlight-label" data-i18n="about.highlight2">Proyectos Entregados</span>
+              </div>
+              <div class="highlight">
+                <span class="highlight-number">3+</span>
+                <span class="highlight-label" data-i18n="about.highlight3">Clientes Satisfechos</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section">
+      <div class="container">
+        <h2 class="section-title reveal" data-i18n="skills.title">Habilidades</h2>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <i class="fab fa-html5"></i>
+            <h3>HTML5</h3>
+            <div class="skill-bar"><div class="skill-level" style="width:95%"></div></div>
+          </div>
+          <div class="skill-card reveal">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS3</h3>
+            <div class="skill-bar"><div class="skill-level" style="width:92%"></div></div>
+          </div>
+          <div class="skill-card reveal">
+            <i class="fab fa-js"></i>
+            <h3>JavaScript</h3>
+            <div class="skill-bar"><div class="skill-level" style="width:88%"></div></div>
+          </div>
+          <div class="skill-card reveal">
+            <i class="fab fa-react"></i>
+            <h3>React</h3>
+            <div class="skill-bar"><div class="skill-level" style="width:85%"></div></div>
+          </div>
+          <div class="skill-card reveal">
+            <i class="fab fa-typescript" style="display:none;"></i>
+            <svg class="skill-icon" viewBox="0 0 24 24" fill="currentColor" width="40" height="40">
+              <path d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm9.75 20.25h-3.75v-9.75H4.5V7.5h10.5v3h-2.625zm4.65-10.688c.42-.472 1.02-.742 1.755-.81.478-.048 1.05-.03 1.95.12v2.55c-.9-.18-1.56-.24-1.98-.18-.54.09-.81.33-.81.9 0 .39.12.66.36.81.3.18.9.39 1.8.66.9.27 1.53.57 1.89.9.45.42.66.99.66 1.73 0 .66-.21 1.23-.63 1.71-.42.48-1.02.81-1.8.99-.78.18-1.65.21-2.61.09-.66-.09-1.26-.27-1.8-.54v-2.7c.6.42 1.32.72 2.16.9.78.18 1.44.21 1.98.09.39-.09.69-.27.9-.54.12-.18.18-.42.18-.72 0-.36-.12-.63-.36-.81-.24-.18-.72-.39-1.44-.63-.9-.3-1.56-.6-1.98-.9-.48-.36-.72-.9-.72-1.62 0-.66.21-1.2.63-1.62z"/>
+            </svg>
+            <h3>TypeScript</h3>
+            <div class="skill-bar"><div class="skill-level" style="width:78%"></div></div>
+          </div>
+          <div class="skill-card reveal">
+            <i class="fab fa-sass"></i>
+            <h3>Sass/SCSS</h3>
+            <div class="skill-bar"><div class="skill-level" style="width:85%"></div></div>
+          </div>
+          <div class="skill-card reveal">
+            <i class="fab fa-git-alt"></i>
+            <h3>Git</h3>
+            <div class="skill-bar"><div class="skill-level" style="width:90%"></div></div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section">
+      <div class="container">
+        <h2 class="section-title reveal" data-i18n="projects.title">Proyectos Destacados</h2>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="https://placehold.co/600x400/1a1a2e/e94560?text=E-Commerce" alt="" loading="lazy" data-i18n-attr-alt="projects.1.alt">
+            </div>
+            <div class="project-info">
+              <h3 data-i18n="projects.1.title">Plataforma E-Commerce</h3>
+              <p data-i18n="projects.1.desc">Tienda en línea con carrito, pago y filtros de productos, construida con React y Redux.</p>
+              <div class="project-tags">
+                <span>React</span><span>Redux</span><span>Stripe</span>
+              </div>
+              <div class="project-links">
+                <a href="#" aria-label="Ver demo en vivo" data-i18n-attr-aria-label="projects.demo.aria"><i class="fas fa-external-link-alt"></i> <span data-i18n="projects.demo">Demo</span></a>
+                <a href="#" aria-label="Ver código fuente" data-i18n-attr-aria-label="projects.code.aria"><i class="fab fa-github"></i> <span data-i18n="projects.code">Código</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="https://placehold.co/600x400/16213e/0f3460?text=Weather+App" alt="" loading="lazy" data-i18n-attr-alt="projects.2.alt">
+            </div>
+            <div class="project-info">
+              <h3 data-i18n="projects.2.title">App del Clima</h3>
+              <p data-i18n="projects.2.desc">App meteorológica en tiempo real con geolocalización, pronóstico de 7 días y visuales animados.</p>
+              <div class="project-tags">
+                <span>Vue.js</span><span>API</span><span>Chart.js</span>
+              </div>
+              <div class="project-links">
+                <a href="https://andresadop.github.io/wheater-app/" target="_blank" rel="noopener" aria-label="Ver demo en vivo" data-i18n-attr-aria-label="projects.demo.aria"><i class="fas fa-external-link-alt"></i> <span data-i18n="projects.demo">Demo</span></a>
+                <a href="https://github.com/andresadop/wheater-app" target="_blank" rel="noopener" aria-label="Ver código fuente" data-i18n-attr-aria-label="projects.code.aria"><i class="fab fa-github"></i> <span data-i18n="projects.code">Código</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="https://placehold.co/600x400/1a1a2e/533483?text=Task+Manager" alt="" loading="lazy" data-i18n-attr-alt="projects.3.alt">
+            </div>
+            <div class="project-info">
+              <h3 data-i18n="projects.3.title">Gestor de Tareas</h3>
+              <p data-i18n="projects.3.desc">App estilo Kanban con arrastrar y soltar, sincronización en tiempo real y colaboración en equipo.</p>
+              <div class="project-tags">
+                <span>React</span><span>Firebase</span><span>DnD</span>
+              </div>
+              <div class="project-links">
+                <a href="#" aria-label="Ver demo en vivo" data-i18n-attr-aria-label="projects.demo.aria"><i class="fas fa-external-link-alt"></i> <span data-i18n="projects.demo">Demo</span></a>
+                <a href="#" aria-label="Ver código fuente" data-i18n-attr-aria-label="projects.code.aria"><i class="fab fa-github"></i> <span data-i18n="projects.code">Código</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="freelance.png" alt="" loading="lazy" data-i18n-attr-alt="projects.4.alt">
+            </div>
+            <div class="project-info">
+              <h3 data-i18n="projects.4.title">Web Freelance</h3>
+              <p data-i18n="projects.4.desc">Sitio web moderno y responsivo para servicios freelance con diseño limpio y profesional.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://andresadop.github.io/portfolio/" target="_blank" rel="noopener" aria-label="Ver demo en vivo" data-i18n-attr-aria-label="projects.demo.aria"><i class="fas fa-external-link-alt"></i> <span data-i18n="projects.demo">Demo</span></a>
+                <a href="https://github.com/andresadop/portfolio" target="_blank" rel="noopener" aria-label="Ver código fuente" data-i18n-attr-aria-label="projects.code.aria"><i class="fab fa-github"></i> <span data-i18n="projects.code">Código</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="https://placehold.co/600x400/16213e/6c63ff?text=Virtual+Assistant" alt="" loading="lazy" data-i18n-attr-alt="projects.5.alt">
+            </div>
+            <div class="project-info">
+              <h3 data-i18n="projects.5.title">Asistente Virtual</h3>
+              <p data-i18n="projects.5.desc">Asistente virtual con servicios profesionales, chatbot, agenda y pagos integrados.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://andresadop.github.io/virtual-assistant/" target="_blank" rel="noopener" aria-label="Ver demo en vivo" data-i18n-attr-aria-label="projects.demo.aria"><i class="fas fa-external-link-alt"></i> <span data-i18n="projects.demo">Demo</span></a>
+                <a href="https://github.com/andresadop/virtual-assistant" target="_blank" rel="noopener" aria-label="Ver código fuente" data-i18n-attr-aria-label="projects.code.aria"><i class="fab fa-github"></i> <span data-i18n="projects.code">Código</span></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2 class="section-title reveal" data-i18n="contact.title">Contáctame</h2>
+        <div class="contact-content">
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name" data-i18n="contact.name.label">Nombre</label>
+              <input type="text" id="name" name="name" placeholder="Tu Nombre" required autocomplete="name" data-i18n-attr-placeholder="contact.name.placeholder">
+              <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <label for="email" data-i18n="contact.email.label">Correo</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" required autocomplete="email" data-i18n-attr-placeholder="contact.email.placeholder">
+              <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <label for="message" data-i18n="contact.message.label">Mensaje</label>
+              <textarea id="message" name="message" rows="5" placeholder="Cuéntame sobre tu proyecto..." required data-i18n-attr-placeholder="contact.message.placeholder"></textarea>
+              <span class="error-message"></span>
+            </div>
+            <button type="submit" class="btn btn-primary" data-i18n="contact.submit">Enviar Mensaje</button>
+            <p class="form-fallback" data-i18n-html="contact.fallback">
+              O envíame un correo a <a href="mailto:andresadop5@gmail.com">andresadop5@gmail.com</a>
+            </p>
+          </form>
+            <div class="contact-info reveal">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:andresadop5@gmail.com">andresadop5@gmail.com</a>
+            </div>
+    <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span data-i18n="contact.location">Maracaibo, Venezuela</span>
+            </div>
+            <div class="contact-socials">
+              <a href="https://github.com/andresadop" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Codepen"><i class="fab fa-codepen"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a href="https://wa.me/584241234567" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <footer class="footer">
+    <div class="container footer-content">
+      <p data-i18n-html="footer.text">© 2026 Andres Osorio. Hecho con <i class="fas fa-code"></i> y <i class="fas fa-heart"></i></p>
+      <button class="back-to-top" aria-label="Volver arriba" data-i18n-attr-aria-label="backToTop.aria">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

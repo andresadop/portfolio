@@ -73,7 +73,7 @@ const i18n = {
     'about.highlight2': 'Projects Delivered',
     'about.highlight3': 'Happy Clients',
     'skills.title': 'Skills & Tools',
-    'skills.english': 'English B2',
+    'skills.english': 'Native Spanish',
     'projects.title': 'Featured Projects',
     'projects.1.alt': 'Weather Dashboard screenshot',
     'projects.1.title': 'Weather Dashboard',
